@@ -33,7 +33,7 @@ const Billboard = () => {
           font-bold 
           drop-shadow-xl
         '>
-          {data.title}
+          {data?.title}
         </p>
         <p className="
           text-white
